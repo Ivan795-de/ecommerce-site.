@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Obchod</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: #e60000;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            background-color: #222;
+            padding: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 15px;
+            background-color: #e60000;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #ff3333;
+        }
+        .banner {
+            text-align: center;
+            padding: 50px;
+            background: url('https://via.placeholder.com/1920x400') no-repeat center;
+            background-size: cover;
+        }
+        .banner h2 {
+            color: #fff;
+            font-size: 2.5em;
+            background: rgba(0, 0, 0, 0.5);
+            display: inline-block;
+            padding: 10px 20px;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .category {
+            background-color: #111;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            border: 1px solid #444;
+            border-radius: 10px;
+            flex: 1 1 calc(25% - 40px);
+            max-width: calc(25% - 40px);
+        }
+        .category h3 {
+            color: #e60000;
+        }
+        .footer {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Váš Obchod</h1>
+</header>
+
+<nav>
+    <a href="#men">Muži</a>
+    <a href="#women">Ženy</a>
+    <a href="#electronics">Elektronika</a>
+    <a href="#cosmetics">Kosmetika</a>
+</nav>
+
+<div class="banner">
+    <h2>Exklusivní nabídky! Nakupujte nyní!</h2>
+</div>
+
+<section class="categories">
+    <div class="category" id="men">
+        <h3>Muži</h3>
+        <p>Objevte nejlepší produkty pro muže!</p>
+    </div>
+    <div class="category" id="women">
+        <h3>Ženy</h3>
+        <p>Luxusní produkty pro ženy.</p>
+    </div>
+    <div class="category" id="electronics">
+        <h3>Elektronika</h3>
+        <p>Nejnovější technologie za nejlepší ceny.</p>
+    </div>
+    <div class="category" id="cosmetics">
+        <h3>Kosmetika</h3>
+        <p>Kvalitní kosmetika pro každého.</p>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2025 Váš Obchod. Všechna práva vyhrazena.</p>
+</footer>
+
+</body>
+</html>
